@@ -1,5 +1,6 @@
 from sanic import Sanic
 from sanic.response import json, text
+
 from onn_sanic.api import register_blueprints
 
 app = Sanic(__name__)

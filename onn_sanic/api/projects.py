@@ -1,6 +1,6 @@
 from sanic import Blueprint
-from sanic.views import HTTPMethodView
 from sanic.response import json
+from sanic.views import HTTPMethodView
 
 
 class Project(HTTPMethodView):
