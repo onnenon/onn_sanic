@@ -1,9 +1,9 @@
 from sanic import Sanic, response
+from sanic.log import logger
+from sanic.websocket import WebSocketProtocol
+from websockets import ConnectionClosed
 
 from onn_sanic.api import register_blueprints
-from sanic.websocket import WebSocketProtocol
-from sanic.log import logger
-from websockets import ConnectionClosed
 
 app = Sanic(__name__)
 
